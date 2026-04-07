@@ -2,6 +2,15 @@ import streamlit as st
 import calendar
 from datetime import datetime
 
+st.markdown(
+    """
+    <head>
+        <meta name="google-site-verification" content="<meta name="google-site-verification" content="w86RdQgR9US_r7V4OengDvxUfTtiJ3MMYt6_fcJZWdM" />" />
+    </head>
+    """, 
+    unsafe_allow_html=True
+)
+
 # Page configuration
 st.set_page_config(page_title="Pro Calendar", page_icon="📅", layout="centered")
 
